@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #FF4500; 
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    background-color: #FF4500; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background-color: #e03e00; 
+}
+.card-container {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    margin-left: 22%;
+}
+
+.card {
+    
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 4px 8px rgba(192, 158, 44, 0.925);
+    border-radius: 8px;
+    background: white;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+}
+.card-description{
+    background-color: rgb(59, 58, 58);
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.card:hover .card-description{
+    display: block;
+}
+
+
